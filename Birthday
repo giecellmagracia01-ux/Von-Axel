@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ELI'S BIRTHDAY</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- OPENING SCREEN -->
+    <section class="hero">
+
+        <p class="small-text">YOU'RE INVITED TO</p>
+
+        <h1>ELI'S<br>1ST BIRTHDAY</h1>
+
+        <p>Come celebrate this special day with us!</p>
+
+        <button onclick="openInvitation()">
+            OPEN INVITATION
+        </button>
+
+    </section>
+
+
+    <!-- MAIN PORTAL -->
+    <main id="invitation">
+
+        <section>
+            <h2>🎂 ELI IS TURNING ONE!</h2>
+
+            <p>
+                We would love for you to join us
+                as we celebrate Eli's special day.
+            </p>
+        </section>
+
+
+        <!-- COUNTDOWN -->
+        <section>
+
+            <h2>COUNTDOWN</h2>
+
+            <div id="countdown">
+                Loading...
+            </div>
+
+        </section>
+
+
+        <!-- DETAILS -->
+        <section>
+
+            <h2>📅 BIRTHDAY DETAILS</h2>
+
+            <p><strong>DATE</strong></p>
+            <p>Sunday, November 8, 2026</p>
+
+            <p><strong>TIME</strong></p>
+            <p>3:00 PM</p>
+
+            <p><strong>VENUE</strong></p>
+            <p>Example Birthday Venue</p>
+
+        </section>
+
+
+        <!-- PHOTO -->
+        <section>
+
+            <h2>📸 MEMORIES</h2>
+
+            <img src="images/photo1.jpg"
+                 alt="Eli">
+
+        </section>
+
+
+        <!-- LOCATION -->
+        <section>
+
+            <h2>📍 LOCATION</h2>
+
+            <p>
+                We can't wait to celebrate with you!
+            </p>
+
+            <a href="YOUR-GOOGLE-MAPS-LINK"
+               target="_blank">
+
+                <button>
+                    VIEW LOCATION
+                </button>
+
+            </a>
+
+        </section>
+
+
+        <!-- RSVP -->
+        <section>
+
+            <h2>💌 RSVP</h2>
+
+            <p>
+                Please let us know if you'll be joining us.
+            </p>
+
+            <a href="YOUR-GOOGLE-FORM-LINK"
+               target="_blank">
+
+                <button>
+                    RSVP NOW
+                </button>
+
+            </a>
+
+        </section>
+
+
+        <!-- CLOSING -->
+        <section>
+
+            <h2>❤️ SEE YOU THERE!</h2>
+
+            <p>
+                Thank you for being part of Eli's
+                special celebration.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
